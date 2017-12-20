@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Profile Settings</title>
+  <link rel="stylesheet" href="./bootstrap-4.0.0-beta.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./common.css">
+  <link rel="stylesheet" href="./profile-settings.css">
+</head>
+
+<body>
+  <header>
+    <div class="dashboard-header"></div>
+  </header>
+
+  <main>
+    <div class="dashboard-container">
+      <div class="container dashboard-content">
+        <div class="row">
+          <div class="col-xs-12 col-md-3">
+            <div class="dashboard-menu dashboard-foreground">
+              <ul>
+                <li class="active">
+                  <div class="row">
+                    <a class="col-7 daskboard-menu-link" href="./profile-settings.html">
+                      Profile
+                    </a>
+                    <div class="col-5 question-mark">
+                      <a class="" href="/"></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="row">
+                    <a class="col-7 daskboard-menu-link" href="./password-settings.html">
+                      Password
+                    </a>
+                    <div class="col-5 question-mark">
+                      <a class="" href="/"></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="row">
+                    <a class="col-7 daskboard-menu-link" href="./billing-settings.html">
+                      Billing
+                    </a>
+                    <div class="col-5 question-mark">
+                      <a class="" href="/"></a>
+                    </div>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="row">
+                    <a class="col-7 daskboard-menu-link" href="./logs-settings.html">
+                      Logs
+                    </a>
+                    <div class="col-5 question-mark">
+                      <a class="" href="/"></a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-md-9">
+            <div class="dashboard-main dashboard-foreground">
+              <form action="" method="POST">
+                <fieldset>
+                  <div class="avatar-group">
+                    <div class="avatar-image">
+                      <img src="./images/avatar.png" alt="avatar">
+                    </div>
+                    <div class="align-middle avatar-upload">
+                      <label for="input-avatar">Upload a new avatar</label>
+                      <div class="file-input-wrapper">
+                        <input type="file" id="input-avatar" name="avatar" class="">
+                      </div>
+                      <p class="avatar-dimension">JPEG 160x160px</p>
+                    </div>
+                    <hr />
+                    <div class="lb-form-group">
+                      <label for="inp-name">YOUR NAME</label>
+                      <input type="text" id="inp-name" name="name" class="lb-form-control" placeholder="John Smith">
+                    </div>
+                    <div class="lb-form-group">
+                      <label for="inp-email">YOUR EMAIL</label>
+                      <input type="email" id="inp-email" name="email" class="lb-form-control" placeholder="abc@example.com">
+                    </div>
+                    <div class="lb-form-group save-button">
+                      <input type="submit" class="btn btn-primary float-right" value="SAVE" />
+                    </div>
+                </fieldset>
+              </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <footer>
+
+  </footer>
+</body>
+
+</html>
