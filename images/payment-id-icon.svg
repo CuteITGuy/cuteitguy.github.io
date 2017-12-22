@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="14px" viewBox="0 0 17 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>users-24px-outline_badge-13</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="01_Exchange_option1-Copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-289.000000, -653.000000)">
+        <g id="Group-20" transform="translate(236.000000, 334.000000)">
+            <g id="Group-17">
+                <g id="Group-12" transform="translate(54.000000, 316.000000)">
+                    <g id="users-24px-outline_badge-13" transform="translate(0.000000, 4.000000)">
+                        <path d="M9.54545455,5.45454545 L12.2727273,5.45454545" id="Shape" stroke="#A4B8C3" stroke-linecap="square"></path>
+                        <path d="M9.54545455,8.18181818 L12.2727273,8.18181818" id="Shape" stroke="#A4B8C3" stroke-linecap="square"></path>
+                        <path d="M2.04545455,9.54545455 C2.04545455,8.41568182 2.96113636,7.5 4.09090909,7.5 L5.45454545,7.5 C6.58431818,7.5 7.5,8.41568182 7.5,9.54545455 L2.04545455,9.54545455 Z" id="Shape" fill="#A4B8C3" fill-rule="nonzero"></path>
+                        <path d="M12.2727273,0 C12.2727273,0.753409091 11.6625,1.36363636 10.9090909,1.36363636 C10.1556818,1.36363636 9.54545455,0.753409091 9.54545455,0 L5.45454545,0 C5.45454545,0.753409091 4.84431818,1.36363636 4.09090909,1.36363636 C3.3375,1.36363636 2.72727273,0.753409091 2.72727273,0 L0,0 L0,12.2727273 L15,12.2727273 L15,0 L12.2727273,0 Z" id="Shape" stroke="#A4B8C3" stroke-linecap="square"></path>
+                        <circle id="Oval" fill="#A4B8C3" fill-rule="nonzero" cx="4.77272727" cy="5.45454545" r="1.36363636"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

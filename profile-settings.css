@@ -1,0 +1,158 @@
+.profile-container {
+  padding-top: 55px;
+}
+
+.profile-foreground {
+  background-color: #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.08);
+}
+
+.profile-menu {
+  padding: 0 !important;
+  margin-bottom: 48px;
+}
+
+.profile-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-menu ul>li {
+  display: block;
+  margin: 0;
+  height: 61px;
+  line-height: 61px;
+  padding: 0 30px 0 40px;
+  list-style-type: none;
+  font-size: 16px;
+  color: #8ca4af;
+  border-bottom: solid 1px;
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+.profile-menu ul>li.last-menu-item {
+  border-bottom: none;
+}
+
+.profile-menu ul>li a.profile-menu-link {
+  display: block;
+  color: #8ca4af;
+  text-decoration: none;
+  width: 100%;
+}
+
+.profile-menu ul>li a.profile-menu-link:hover {
+  color: #262e6c;
+  ;
+}
+
+/* .profile-menu ul>li a.question-mark {
+  display: none;
+} */
+
+.profile-menu ul>li.active a.profile-menu-link {
+  color: #262e6c;
+  background-image: url('./images/arrow-right-circle.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+/* .profile-menu ul>li.active .question-mark {
+  padding-right: 32px;
+} */
+
+.profile-menu ul>li.active .question-mark a {
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-top: 2px;
+}
+
+.profile-main {
+  padding: 42 76px 42px 80px;
+}
+
+.profile-main .avatar-image {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+}
+
+.profile-main .avatar-upload {
+  display: inline-block;
+}
+
+.profile-main .avatar-upload label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #262e6c;
+}
+
+.profile-main .avatar-upload .avatar-dimension {
+  font-size: 14px;
+  font-weight: 600;
+  color: #4a4a4a;
+}
+
+.profile-main .save-button {
+  margin-top: 54px;
+}
+
+.profile-main hr {
+  margin-top: 26px;
+  color: rgba(0, 0, 0, 0.08);
+  background-color: rgba(0, 0, 0, 0.08);
+  height: 1px;
+  border: none;
+  box-shadow: none;
+}
+
+.payment-heading {
+  border: 5px;
+  border: solid 1px #d0d7dd;
+  padding: 24px 48px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.44;
+  text-align: center;
+  color: #262e6c;
+}
+
+.payment-heading p {
+  margin: 0;
+}
+
+.payment-history {
+  margin-top: 38px;
+}
+
+.payment-history h3 {
+  font-size: 18px;
+  color: #262e6c;
+}
+
+.payment-history table {
+  margin-top: 20px;
+}
+
+.payment-history table thead th {
+  padding-top: 16px;
+  padding-bottom: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #262e6c;
+}
+
+.payment-history table tr>td {
+  padding-top: 16px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  color: rgba(69, 103, 142, 0.84);
+}
+
+.payment-history a.receipt-link {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgba(69, 103, 142, 0.84);
+}

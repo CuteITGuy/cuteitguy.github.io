@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="01_Exchange_option1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-399.000000, -775.000000)">
+        <g id="Plan-" transform="translate(383.000000, 657.000000)" fill="#D0D7DD">
+            <g id="Envelope" transform="translate(16.000000, 118.000000)">
+                <path d="M14.049,0.992 L2.946,0.992 C1.87,0.992 0.995,1.883 0.995,2.977 L0.995,10.577 C0.995,11.672 1.87,12.563 2.946,12.563 L14.049,12.563 C15.125,12.563 16,11.672 16,10.577 L16,2.977 C16,1.883 15.125,0.992 14.049,0.992 L14.049,0.992 Z M8.551,6.635 L3.97,2.499 L13.131,2.499 L8.551,6.635 L8.551,6.635 Z M14.049,11.056 L2.946,11.056 C2.687,11.056 2.476,10.841 2.476,10.577 L2.476,3.164 L8.006,8.158 C8.147,8.285 8.322,8.348 8.497,8.348 C8.515,8.348 8.533,8.344 8.551,8.343 C8.569,8.344 8.586,8.348 8.604,8.348 C8.779,8.348 8.955,8.285 9.096,8.158 L14.519,3.26 L14.519,10.577 C14.519,10.841 14.308,11.056 14.049,11.056 L14.049,11.056 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
