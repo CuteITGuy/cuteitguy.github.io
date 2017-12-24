@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="5px" viewBox="0 0 22 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="03_01_API-Keys-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1102.000000, -619.000000)">
+        <g id="Group-6" transform="translate(247.000000, 193.000000)" fill="#D0D7DD">
+            <g id="Group-2">
+                <g id="Group">
+                    <g id="Table">
+                        <g id="line" transform="translate(0.000000, 60.000000)">
+                            <g id="Group-7" transform="translate(0.000000, 324.000000)">
+                                <path d="M874.578,47 C873.241,47 872.156,45.881 872.156,44.5 C872.156,43.119 873.241,42 874.578,42 C875.916,42 877,43.119 877,44.5 C877,45.881 875.916,47 874.578,47 L874.578,47 Z M866,47 C864.671,47 863.594,45.881 863.594,44.5 C863.594,43.119 864.671,42 866,42 C867.329,42 868.406,43.119 868.406,44.5 C868.406,45.881 867.329,47 866,47 L866,47 Z M857.422,47 C856.084,47 855,45.881 855,44.5 C855,43.119 856.084,42 857.422,42 C858.759,42 859.844,43.119 859.844,44.5 C859.844,45.881 858.759,47 857.422,47 L857.422,47 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

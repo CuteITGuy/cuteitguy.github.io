@@ -11,129 +11,131 @@
 </head>
 
 <body>
-  <header>
-    <div class="dashboard-header"></div>
-  </header>
+  <div class="dashboard-container">
+    <header>
+      <div class="dashboard-header"></div>
+    </header>
 
-  <main>
-    <div class="dashboard-container pricing-container">
-      <div class="">
-        <div class="pricing-heading">
-          <div class="row pricing-steps-container">
-            <div class="col-xs-12 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6 pricing-steps">
-              <div class="row">
-                <div class="col-xs-4 pricing-step">
-                  1. PLAN
+    <main>
+      <div class="pricing-container">
+        <div class="">
+          <div class="pricing-heading">
+            <div class="row pricing-steps-container">
+              <div class="col-xs-12 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6 pricing-steps">
+                <div class="row">
+                  <div class="col-xs-4 pricing-step">
+                    1. PLAN
+                  </div>
+                  <div class="col-xs-4 pricing-step active">
+                    2. PAYMENT
+                  </div>
+                  <div class="col-xs-4 pricing-step">
+                    3. COMPLETE
+                  </div>
                 </div>
-                <div class="col-xs-4 pricing-step active">
-                  2. PAYMENT
+                <div class="pricing-step-line">
+                  <div></div>
                 </div>
-                <div class="col-xs-4 pricing-step">
-                  3. COMPLETE
-                </div>
-              </div>
-              <div class="pricing-step-line">
-                <div></div>
               </div>
             </div>
+
+            <h3 class="pricing-title">Payment Process</h3>
           </div>
 
-          <h3 class="pricing-title">Payment Process</h3>
-        </div>
-
-        <div class="pricing-background">
-          <div class="pricing-main">
-            <div class="">
-              <div class="payment-process-container">
-                <div class="payment-process">
-                  <div class="payment-left-column">
-                    <div class="payment-heading">
-                      <h4 class="payment-label">Payment</h4>
-                      <img src="./images/lunabot-title.svg" alt="LUNABOT">
-                    </div>
-                    <div class="payment-info payment-info-1">
-                      <h4 class="payment-label">Total</h4>
-                      <p class="payment-price">0.18 BTC</p>
-                    </div>
-                    <div class="payment-info payment-info-2">
-                      <h4 class="payment-label">Payment ID</h4>
-                      <p>#23123</p>
-                    </div>
-                    <div class="payment-info payment-info-3">
-                      <h4 class="payment-label">Package</h4>
-                      <p>Yearly</p>
-                    </div>
-                  </div>
-                  <div class="payment-right-column">
-                    <div class="payment-main">
-                      <div class="float-left text-left line-1">Powered by</div>
-                      <div class="float-right text-right line-1">December 5, 2017 16:37:00</div>
-                      <div class="clearfix"></div>
-                      <div class="float-left text-left line-2"></div>
-                      <div class="float-right text-right line-2">December 5, 2018 16:37:00</div>
-                      <div class="float-right text-right line-2">
-                        <strong>Renew in:</strong>
-                      </div>
-                      <div class="clearfix"></div>
-                      <hr>
-                      <p class="line-3">Send
-                        <strong>0.18 BTC </strong>
-                        to the address below
-                      </p>
-                      <p class="line-4">The whole amount should be sent as one transaction</p>
-                      <hr>
-                      <div class="payment-actions">
-                        <a href="./pricing-step-3.html" class="payment-action-1">Copy Address</a>
-                        <a href="./pricing-step-3.html" class="payment-action-2 active">Scan QR Code</a>
-                      </div>
-                    </div>
-
-                    <div class="qr-code-canvas"></div>
-
-                    <div class="time-remaining">
-                      <div class="time-remaining-text">
-                        <p>
-                          <img src="./images/load-spinner.gif" alt="" width="24" height="24">
-                          <span>Time remaining</span>
-                        </p>
-                      </div>
-                      <div class="time-remaining-clock">3:41</div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-
-            <div class="pricing-footing">
+          <div class="pricing-background">
+            <div class="pricing-main">
               <div class="">
-                <h4 class="pricing-footer-title">Simple and comprehensive billing.</h4>
-                <div class="description-cards">
-                  <div class="description-card-container">
-                    <div class="description-card description-card-1">
-                      <div class="description-image">
-                        <img src="./images/description-1.svg" alt="">
+                <div class="payment-process-container">
+                  <div class="payment-process">
+                    <div class="payment-left-column">
+                      <div class="payment-heading">
+                        <h4 class="payment-label">Payment</h4>
+                        <img src="./images/lunabot-title.svg" alt="LUNABOT">
                       </div>
-                      <h5 class="description-card-title">Fair pricing</h5>
-                      <p class="description-card-content">At Lunabot, we believe that customer relationship should be a part of every business. All our plans
-                        have been designed to fit most business needs.</p>
+                      <div class="payment-info payment-info-1">
+                        <h4 class="payment-label">Total</h4>
+                        <p class="payment-price">0.18 BTC</p>
+                      </div>
+                      <div class="payment-info payment-info-2">
+                        <h4 class="payment-label">Payment ID</h4>
+                        <p>#23123</p>
+                      </div>
+                      <div class="payment-info payment-info-3">
+                        <h4 class="payment-label">Package</h4>
+                        <p>Yearly</p>
+                      </div>
                     </div>
-                  </div>
-                  <div class="description-card-container">
-                    <div class="description-card description-card-2">
-                      <img src="./images/description-2.svg" alt="">
-                      <h5 class="description-card-title">Security payment</h5>
-                      <p class="description-card-content">At Lunabot, we believe that customer relationship should be a part of every business. All our plans
-                        have been designed to fit most business needs.</p>
+                    <div class="payment-right-column">
+                      <div class="payment-main">
+                        <div class="float-left text-left line-1">Powered by</div>
+                        <div class="float-right text-right line-1">December 5, 2017 16:37:00</div>
+                        <div class="clearfix"></div>
+                        <div class="float-left text-left line-2"></div>
+                        <div class="float-right text-right line-2">December 5, 2018 16:37:00</div>
+                        <div class="float-right text-right line-2">
+                          <strong>Renew in:</strong>
+                        </div>
+                        <div class="clearfix"></div>
+                        <hr>
+                        <p class="line-3">Send
+                          <strong>0.18 BTC </strong>
+                          to the address below
+                        </p>
+                        <p class="line-4">The whole amount should be sent as one transaction</p>
+                        <hr>
+                        <div class="payment-actions">
+                          <a href="./pricing-step-3.html" class="payment-action-1">Copy Address</a>
+                          <a href="./pricing-step-3.html" class="payment-action-2 active">Scan QR Code</a>
+                        </div>
+                      </div>
+
+                      <div class="qr-code-canvas"></div>
+
+                      <div class="time-remaining">
+                        <div class="time-remaining-text">
+                          <p>
+                            <img src="./images/load-spinner.gif" alt="" width="24" height="24">
+                            <span>Time remaining</span>
+                          </p>
+                        </div>
+                        <div class="time-remaining-clock">3:41</div>
+                      </div>
                     </div>
+
                   </div>
-                  <div class="description-card-container">
-                    <div class="description-card description-card-3">
-                      <img src="./images/description-3.svg" alt="">
-                      <h5 class="description-card-title">Consolidated billing</h5>
-                      <p class="description-card-content">At Lunabot, we believe that customer relationship should be a part of every business. All our plans
-                        have been designed to fit most business needs.</p>
+                </div>
+
+              </div>
+
+              <div class="pricing-footing">
+                <div class="">
+                  <h4 class="pricing-footer-title">Simple and comprehensive billing.</h4>
+                  <div class="description-cards">
+                    <div class="description-card-container">
+                      <div class="description-card description-card-1">
+                        <div class="description-image">
+                          <img src="./images/description-1.svg" alt="">
+                        </div>
+                        <h5 class="description-card-title">Fair pricing</h5>
+                        <p class="description-card-content">At Lunabot, we believe that customer relationship should be a part of every business. All our plans
+                          have been designed to fit most business needs.</p>
+                      </div>
+                    </div>
+                    <div class="description-card-container">
+                      <div class="description-card description-card-2">
+                        <img src="./images/description-2.svg" alt="">
+                        <h5 class="description-card-title">Security payment</h5>
+                        <p class="description-card-content">At Lunabot, we believe that customer relationship should be a part of every business. All our plans
+                          have been designed to fit most business needs.</p>
+                      </div>
+                    </div>
+                    <div class="description-card-container">
+                      <div class="description-card description-card-3">
+                        <img src="./images/description-3.svg" alt="">
+                        <h5 class="description-card-title">Consolidated billing</h5>
+                        <p class="description-card-content">At Lunabot, we believe that customer relationship should be a part of every business. All our plans
+                          have been designed to fit most business needs.</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -141,12 +143,12 @@
             </div>
           </div>
         </div>
-      </div>
-  </main>
+    </main>
 
-  <footer>
+    <footer>
 
-  </footer>
+    </footer>
+    </div>
 </body>
 
 </html>

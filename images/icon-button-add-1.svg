@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ui-24px-outline-1_circle-add</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="15" cy="15" r="15"></circle>
+        <filter x="-23.3%" y="-16.7%" width="146.7%" height="146.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0954200634 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="03_01_API-Keys-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1225.000000, -168.000000)">
+        <g id="ui-24px-outline-1_circle-add" transform="translate(1229.000000, 170.000000)">
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <path d="M15,8.18181818 L15,21.8181818" id="Shape" stroke="#262E6C" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M21.8181818,15 L8.18181818,15" id="Shape" stroke="#262E6C" stroke-width="2" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

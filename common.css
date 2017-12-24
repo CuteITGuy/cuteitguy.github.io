@@ -190,6 +190,6 @@ a {
 }
 
 .dashboard-container {
+  min-height: 100%;
   background-color: #f4f8f9;
-  height: 100%;
 }

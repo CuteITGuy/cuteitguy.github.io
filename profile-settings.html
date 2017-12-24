@@ -11,80 +11,82 @@
 </head>
 
 <body>
-  <header>
-    <div class="dashboard-header"></div>
-  </header>
+  <div class="dashboard-container">
+    <header>
+      <div class="dashboard-header"></div>
+    </header>
 
-  <main>
-    <div class="dashboard-container profile-container">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-3">
-            <div class="profile-menu profile-foreground">
-              <ul>
-                <li class="active">
-                  <a class="profile-menu-link" href="./profile-settings.html">
-                    Profile
-                  </a>
-                </li>
-                <li class="">
-                  <a class="profile-menu-link" href="./password-settings.html">
-                    Password
-                  </a>
-                </li>
-                <li class="">
-                  <a class="profile-menu-link" href="./billing-settings.html">
-                    Billing
-                  </a>
-                </li>
-                <li class="">
-                  <a class="profile-menu-link" href="./logs-settings.html">
-                    Logs
-                  </a>
-                </li>
-              </ul>
+    <main>
+      <div class="profile-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-3">
+              <div class="profile-menu profile-foreground">
+                <ul>
+                  <li class="active">
+                    <a class="profile-menu-link" href="./profile-settings.html">
+                      Profile
+                    </a>
+                  </li>
+                  <li class="">
+                    <a class="profile-menu-link" href="./password-settings.html">
+                      Password
+                    </a>
+                  </li>
+                  <li class="">
+                    <a class="profile-menu-link" href="./billing-settings.html">
+                      Billing
+                    </a>
+                  </li>
+                  <li class="">
+                    <a class="profile-menu-link" href="./logs-settings.html">
+                      Logs
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
 
-          <div class="col-xs-12 col-md-9">
-            <div class="profile-main profile-foreground">
-              <form action="" method="POST">
-                <fieldset>
-                  <div class="avatar-group">
-                    <div class="avatar-image">
-                      <img src="./images/avatar.png" alt="avatar">
-                    </div>
-                    <div class="align-middle avatar-upload">
-                      <label for="input-avatar">Upload a new avatar</label>
-                      <div class="file-input-wrapper">
-                        <input type="file" id="input-avatar" name="avatar" class="">
+            <div class="col-xs-12 col-md-9">
+              <div class="profile-main profile-foreground">
+                <form action="" method="POST">
+                  <fieldset>
+                    <div class="avatar-group">
+                      <div class="avatar-image">
+                        <img src="./images/avatar.png" alt="avatar">
                       </div>
-                      <p class="avatar-dimension">JPEG 160x160px</p>
-                    </div>
-                    <hr />
-                    <div class="lb-form-group">
-                      <label for="inp-name">YOUR NAME</label>
-                      <input type="text" id="inp-name" name="name" class="lb-form-control" placeholder="John Smith">
-                    </div>
-                    <div class="lb-form-group">
-                      <label for="inp-email">YOUR EMAIL</label>
-                      <input type="email" id="inp-email" name="email" class="lb-form-control" placeholder="abc@example.com">
-                    </div>
-                    <div class="lb-form-group save-button">
-                      <input type="submit" class="btn btn-primary float-right" value="SAVE" />
-                    </div>
-                </fieldset>
-              </form>
+                      <div class="align-middle avatar-upload">
+                        <label for="input-avatar">Upload a new avatar</label>
+                        <div class="file-input-wrapper">
+                          <input type="file" id="input-avatar" name="avatar" class="">
+                        </div>
+                        <p class="avatar-dimension">JPEG 160x160px</p>
+                      </div>
+                      <hr />
+                      <div class="lb-form-group">
+                        <label for="inp-name">YOUR NAME</label>
+                        <input type="text" id="inp-name" name="name" class="lb-form-control" placeholder="John Smith">
+                      </div>
+                      <div class="lb-form-group">
+                        <label for="inp-email">YOUR EMAIL</label>
+                        <input type="email" id="inp-email" name="email" class="lb-form-control" placeholder="abc@example.com">
+                      </div>
+                      <div class="lb-form-group save-button">
+                        <input type="submit" class="btn btn-primary float-right" value="SAVE" />
+                      </div>
+                  </fieldset>
+                </form>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-  </main>
+    </main>
 
-  <footer>
+    <footer>
 
-  </footer>
+    </footer>
+    </div>
 </body>
 
 </html>

@@ -1,0 +1,104 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>API Keys - Details</title>
+  <link rel="stylesheet" href="./bootstrap-4.0.0-beta.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./OwlCarousel2-2.2.1/dist/assets/owl.carousel.css">
+  <link rel="stylesheet" href="./OwlCarousel2-2.2.1/dist/assets/owl.theme.default.css">
+  <link rel="stylesheet" href="./common.css">
+  <link rel="stylesheet" href="./apikeys.css">
+</head>
+
+<body>
+  <div class="dashboard-container">
+    <header>
+      <div class="dashboard-header"></div>
+    </header>
+
+    <main>
+      <div class="container apikeys-container">
+        <div class="row justify-content-center apikeys-card">
+          <div class="col-10">
+            <h3 class="apikeys-detail-title">Choose Exchange Market</h3>
+            <hr>
+            <div id="exchange-markets" class="owl-carousel owl-theme exchange-markets">
+              <div class="exchange-market active" data-exchange-name="Poloniex" data-exchange-id="poloniex" data-link-howto="https://www.youtube.com/watch?v=OScIbgXZoW0">
+                <div class="check-mark"></div>
+                <div class="exchange-logo">
+                  <img src="./images/logo-exchange-poloniex-1.png" alt="POLONIEX">
+                </div>
+                <p>Poloniex</p>
+              </div>
+              <div class="exchange-market" data-exchange-name="Bittrex" data-exchange-id="bittrex" data-link-howto="https://www.youtube.com/watch?v=11qcdDfHiok">
+                <div class="check-mark"></div>
+                <div class="exchange-logo">
+                  <img src="./images/logo-exchange-bittrex-1.png" alt="BITTREX">
+                </div>
+                <p>Bittrex</p>
+              </div>
+              <div class="exchange-market" data-exchange-name="Kraken" data-exchange-id="kraken" data-link-howto="https://www.youtube.com/watch?v=RnWMK-nSucU">
+                <div class="check-mark"></div>
+                <div class="exchange-logo">
+                  <img src="./images/logo-exchange-kraken-1.png" alt="KRAKEN">
+                </div>
+                <p>Kraken</p>
+              </div>
+              <div class="exchange-market" data-exchange-name="Cryptopia" data-exchange-id="cryptopia" data-link-howto="https://www.cryptopia.co.nz/Forum/Thread/256">
+                <div class="check-mark"></div>
+                <div class="exchange-logo">
+                  <img src="./images/logo-exchange-cryptopia-1.png" alt="CRYPTOPIA">
+                </div>
+                <p>Cryptopia</p>
+              </div>
+            </div>
+
+            <p class="apikeys-detail-text">
+              Please add your Poloniex API credentials. You should use an API key that has withdrawing disabled.
+              <br>
+              <a id="lnkHowTo" href="https://www.youtube.com/watch?v=OScIbgXZoW0" target="_blank">How to get your API key and API secret from Poloniex</a>
+            </p>
+
+            <form action="./apikeys-master.html" method="POST">
+              <fieldset>
+                <input id="inpExchangeId" type="hidden" name="exchangeId" value="poloniex">
+                <div class="row form-group apikeys-input-group">
+                  <label id="lbKey" for="inputKey" class="col-lg-3 col-form-label">Poloniex API Key</label>
+                  <div class="col-lg-9 input-column">
+                    <input id="inpKey" type="text" class="form-control lb-form-control" id="inputApiKey" name="apiKey" placeholder="Your Poloniex API Key">
+                  </div>
+                </div>
+                <div class="row form-group apikeys-input-group">
+                  <label id="lbSecret" for="inputSecret" class="col-lg-3 col-form-label">Poloniex API Secret</label>
+                  <div class="col-lg-9 input-column">
+                    <input id="inpSecret" type="text" class="form-control lb-form-control" id="inputSecret" name="apiSecret" placeholder="Your Poloniex API Key Secret">
+                  </div>
+                </div>
+                <div class="row form-group apikeys-input-group">
+                  <label id="lbNote" for="inputNote" class="col-lg-3 col-form-label">Take a note</label>
+                  <div class="col-lg-9 input-column">
+                    <input id="inpNote" type="text" class="form-control lb-form-control" id="inputNote" placeholder="Ex: Api keys account 1">
+                  </div>
+                </div>
+                <div class="form-group row text-center">
+                  <button type="submit" class="btn btn-primary button-save-api-keys">Save API Keys</button>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+
+    </footer>
+  </div>
+  <script src="./jQuery-3.2.1/jQuery-3.2.1.js"></script>
+  <script src="./OwlCarousel2-2.2.1/dist/owl.carousel.js"></script>
+  <script src="./apikeys-detail.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>ui-24px-outline-1_check-circle-07</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="03_01_API-Keys" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-378.000000, -287.000000)">
+        <g id="Group-14" transform="translate(208.000000, 206.000000)" stroke="#14B876" stroke-width="2">
+            <g id="Group-3" transform="translate(27.000000, 69.000000)">
+                <g id="ui-24px-outline-1_check-circle-07" transform="translate(144.000000, 13.000000)">
+                    <path d="M15.0095238,5.63809524 C15.1619048,6.24761905 15.2380952,6.93333333 15.2380952,7.61904762 C15.2380952,11.8095238 11.8095238,15.2380952 7.61904762,15.2380952 C3.42857143,15.2380952 0,11.8095238 0,7.61904762 C0,3.42857143 3.42857143,0 7.61904762,0 C9.06666667,0 10.4380952,0.380952381 11.6571429,1.14285714" id="Shape"></path>
+                    <polyline id="Shape" stroke-linecap="square" points="4.57142857 6.0952381 7.61904762 9.14285714 16 0.761904762"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

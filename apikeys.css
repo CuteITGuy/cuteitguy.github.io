@@ -1,0 +1,168 @@
+.apikeys-container {
+  padding-top: 84px;
+  padding-bottom: 95px;
+}
+
+.apikeys-card {
+  position: relative;
+  padding-top: 57px;
+  padding-bottom: 63px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.apikeys-detail-title {
+  font-size: 24px;
+  color: #262e6c;
+  padding-left: 39px;
+  background-image: url('./images/icon-choose-exchange-market.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.apikeys-card hr {
+  margin: 13px -27px 25px;
+  height: 2px;
+  color: #979797;
+  background-color: #979797;
+  opacity: 0.2;
+  border: none;
+  box-shadow: none;
+}
+
+.exchange-market {
+  /* display: inline-block; */
+  width: 175px;
+  height: 175px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.0);
+  border: solid 1px #d0d7dd;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.exchange-market:hover {
+  opacity: 1;
+  border: solid 1px #14b876;
+}
+
+.exchange-market.active {
+  border: solid 1px #14b876;
+  opacity: 1;
+}
+
+.exchange-market .check-mark {
+  height: 27px;
+  margin: 0 15px;
+}
+
+.exchange-market.active .check-mark {
+  background-image: url('./images/icon-circle-checked-1.svg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.exchange-logo {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.exchange-logo img {
+  display: inline-block !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.exchange-market p {
+  margin-top: 8px;
+  font-size: 14px;
+  text-align: center;
+  color: #262e6c;
+}
+
+.apikeys-detail-text {
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #989898;
+}
+
+.apikeys-input-group {
+  margin: 0;
+}
+
+.apikeys-input-group label {
+  padding: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #4a4a4a;
+  line-height: 60px;
+}
+
+.apikeys-input-group .input-column {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.apikeys-input-group input.lb-form-control {
+  height: 40px;
+  line-height: 38px;
+  border: solid 1px #d0d7dd;
+  padding: 0 20px;
+}
+
+.button-save-api-keys {
+  margin: 59px auto 0;
+}
+
+.add-apikey {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 25px;
+  right: 46px;
+}
+
+a.button-add-apikey {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-content: center;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+}
+
+a.button-add-apikey:hover {
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+a.button-add-apikey img {
+  transition-property: transform;
+  transition-duration: 250ms;
+}
+
+a.button-add-apikey:hover img {
+  transform: rotateZ(-180deg);
+}
+
+.apikeys-actions {}
+
+.apikey-actions a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/ellipsis-inactive-1.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.apikey-actions:hover a {
+  background-image: url('./images/ellipsis-active-1.svg');
+}

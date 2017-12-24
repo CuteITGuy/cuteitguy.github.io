@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="03_01_API-Keys-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-917.000000, -398.000000)">
+        <g id="Dropdown" transform="translate(886.000000, 315.000000)">
+            <g id="Delete" transform="translate(31.000000, 80.000000)">
+                <g transform="translate(0.000000, 3.000000)" id="Group">
+                    <g>
+                        <circle id="Oval" fill="#FF6D4A" cx="7.5" cy="7.5" r="7.5"></circle>
+                        <path d="M5.5,6 L9.5,6 C10.328,6 11,6.672 11,7.5 C11,8.328 10.328,9 9.5,9 L5.5,9 C4.672,9 4,8.328 4,7.5 C4,6.672 4.672,6 5.5,6 L5.5,6 Z" id="Shape" fill="#FAFBFC"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
