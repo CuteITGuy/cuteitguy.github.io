@@ -24,7 +24,7 @@
 
       setExchangeName(exchangeName);
       setExchangeId(exchangeId);
-      setLinkHowto(exchangeName, linkHowto);
+      setLinkHowto(exchangeName, linkHowto)
     });
   });
 
